@@ -1,0 +1,16 @@
+PODS:
+  - TGSampleLibrary (0.1.0)
+
+DEPENDENCIES:
+  - TGSampleLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  TGSampleLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TGSampleLibrary: 975e25f183294bef4fee94c12eda621b7b6ecdeb
+
+PODFILE CHECKSUM: 2a143c71f0cd0a50b8cba05555170421779a6890
+
+COCOAPODS: 1.10.0

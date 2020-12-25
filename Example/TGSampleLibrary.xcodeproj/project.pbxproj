@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		249FC485B347B56845031B67 /* Pods-TGSampleLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGSampleLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-TGSampleLibrary_Example/Pods-TGSampleLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2DAD899D3CA3EE3CAD2B5F40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2DAD899D3CA3EE3CAD2B5F40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3B7EC08F3FCAF74FBD5DAC6B /* Pods-TGSampleLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGSampleLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TGSampleLibrary_Tests/Pods-TGSampleLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TGSampleLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGSampleLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* TGSampleLibrary_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGSampleLibrary_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A0F2557074DBC4FBE8AB010B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0F2557074DBC4FBE8AB010B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B214E37BF524FE9FB7F242E5 /* Pods-TGSampleLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGSampleLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-TGSampleLibrary_Tests/Pods-TGSampleLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BAF904115EEF3E4080EA2605 /* Pods_TGSampleLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGSampleLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC1F0C39488EA88D266967F0 /* TGSampleLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TGSampleLibrary.podspec; path = ../TGSampleLibrary.podspec; sourceTree = "<group>"; };
+		BC1F0C39488EA88D266967F0 /* TGSampleLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TGSampleLibrary.podspec; path = ../TGSampleLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EF7FBD63D0735F98F5983E1A /* Pods-TGSampleLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGSampleLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-TGSampleLibrary_Example/Pods-TGSampleLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F928D902CCD4B71229553E8F /* Pods_TGSampleLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGSampleLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				3B7EC08F3FCAF74FBD5DAC6B /* Pods-TGSampleLibrary_Tests.debug.xcconfig */,
 				B214E37BF524FE9FB7F242E5 /* Pods-TGSampleLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
